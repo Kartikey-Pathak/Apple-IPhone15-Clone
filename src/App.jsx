@@ -1,7 +1,9 @@
 import './App.css'
 import Hero from './Hero'
 import Highlight from './Highlight'
+import ModelView from './ModelView'
 import Nav from './Nav'
+import Story from './Story'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
     </header>
     <main>
       <Highlight/>
+      <ModelView/>
+      <Story/>
     </main>
       
     </div>
