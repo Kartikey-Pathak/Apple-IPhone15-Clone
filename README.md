@@ -38,3 +38,53 @@ Check it out here:
 - **Deployment:** Vercel
 
 ---
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/apple-iphone15pro-clone.git
+   cd apple-iphone15pro-clone
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Visit http://localhost:5173 in your browser.
+
+
+💬 About the Project
+This project was built as a personal challenge to test my creative and technical skills:
+
+Replicating Apple’s precise design language
+
+Creating Blender 3D assets
+
+Writing GSAP logic manually without any boilerplate
+
+Ensuring performance, accessibility, and responsive behavior
+
+📌 Future Improvements
+Add prefers-reduced-motion support for accessibility
+
+Lazy-load video assets based on scroll position
+
+Replace heavy video with compressed Lottie or 3D WebGL for better performance
+
+🙋‍♂️ Author
+Kartikey Pathak
+
+Full Stack Web Developer | Blender Artist | CSE Undergrad
+🔗 LinkedIn • GitHub • Portfolio (if available)
+
+⭐ If you like it...
+Don’t forget to Star 🌟 the repo and share your feedback!
