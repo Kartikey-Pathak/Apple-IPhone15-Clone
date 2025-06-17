@@ -1,12 +1,40 @@
-# React + Vite
+# 🍎 Apple iPhone 15 Pro Website Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-fidelity clone of the official Apple iPhone 15 Pro landing page, built from scratch using **React**, **GSAP**, and a custom **3D model created in Blender**.
 
-Currently, two official plugins are available:
+> ⚙️ All logic, animations, and 3D elements were created by me — no templates or libraries were used for animations or models. A true end-to-end clone built with care.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+Check it out here:  
+👉 [apple-inspired-ui.vercel.app](https://apple-inspired-ui.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🌀 **Smooth GSAP Animations**  
+  - Scroll-based transitions
+  - Delayed entrances
+  - Text + image motion sync
+- 📱 **Fully Responsive Design**  
+  - Mobile-first layout
+  - Dynamic video switching (mobile/desktop)
+- 🎥 **High-Quality Hero Videos**  
+  - Imported and optimized based on screen size
+- 🔁 **Optimized Asset Loading**  
+  - Conditional rendering & performance-first design
+- 🧊 **3D Model Integration**  
+  - Modeled in Blender by me
+  - Rendered and imported for web display
+
+---
+
+## 🧠 Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **Animations:** GSAP (`ScrollTrigger`, `fromTo`, `timeline`)
+- **3D Assets:** Blender (exported as image/video)
+- **Deployment:** Vercel
+
+---
