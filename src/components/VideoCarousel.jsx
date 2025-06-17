@@ -25,7 +25,7 @@ function VideoCarousel() {
 
     return (
         <div className=" w-full max-w-screen flex items-center justify-center mt-20 md:mt-1">
-            <div ref={vidref} className=" opacity-0 flex items-center h-[85vh] md:h-[95vh]  relative   w-[90%] overflow-auto snap-x  hide-scrollbar space-x-3  max-w-screen">
+            <div ref={vidref} className=" opacity-0 flex items-center h-[85vh] md:h-[90vh]  relative   w-[90%] overflow-auto snap-x  hide-scrollbar space-x-3  max-w-screen">
 
                 {Slides.map((item, idx) => (
                     <div  key={idx} className=" min-w-[90%] h-[100%] snap-center">
