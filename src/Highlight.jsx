@@ -23,7 +23,7 @@ function Highlight() {
 
     }, [])
     return (
-        <div className=" w-full flex flex-col max-w-screen h-[52rem] md:h-[60rem] bg-[#1D1D1F]">
+        <div className=" w-full flex flex-col max-w-screen h-[52rem] lg:h-[60rem] md:h-[70rem] bg-[#1D1D1F]">
             {/* text */}
             <div className=" m-5 mt-20 md:m-30 flex flex-col gap-5 md:flex-row md:justify-between">
                 <h1 className=" opacity-0 links text-3xl md:text-4xl lg:text-5xl text-white font-semibold">Get the highlights.</h1>
