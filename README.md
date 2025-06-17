@@ -86,5 +86,10 @@ Kartikey Pathak
 Full Stack Web Developer | Blender Artist | CSE Undergrad
 🔗 LinkedIn • GitHub • Portfolio (if available)
 
+🛠️ Every line of code and animation logic is written by me from scratch — no code or templates were copied.
+I closely studied the original Apple site and recreated the UI and animation behavior in my own way using React and GSAP.
+
+
+
 ⭐ If you like it...
 Don’t forget to Star 🌟 the repo and share your feedback!
