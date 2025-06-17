@@ -58,7 +58,7 @@ function Game(){
             {/* image */}
             <div className=" flex justify-center items-center md:mt-10">
             <div ref={chipref} className=" opacity-0 flex justify-center items-center size-[100%]">
-                <img src="./src/assets/chip.jpeg" className="h-full w-full object-cover" alt="" />
+                <img src="./img/chip.jpeg" className="h-full w-full object-cover" alt="" />
             </div>
             </div>
               
@@ -70,8 +70,8 @@ function Game(){
 
             {/* Gameplay Part */}
             <div className=" mt-20 w-[99%] h-[10rem] md:w-[80%] md:h-[30rem] flex items-center justify-center relative">
-                <img src="./src/assets/frame.png" className="z-20 w-full h-full object-contain" alt="" />
-                <video src="./src/assets/frame.mp4" autoPlay loop muted   playsInline className="  h-[25vh] w-[52vh] md:w-[95%] md:h-[36vw] lg:h-[36vw] xl:h-[28vw] lg:w-[78vw] xl:w-[62vw] object-cover rounded-[2rem] z-10 absolute"></video>
+                <img src="./img/frame.png" className="z-20 w-full h-full object-contain" alt="" />
+                <video src="./Video/frame.mp4" autoPlay loop muted   playsInline className="  h-[25vh] w-[52vh] md:w-[95%] md:h-[36vw] lg:h-[36vw] xl:h-[28vw] lg:w-[78vw] xl:w-[62vw] object-cover rounded-[2rem] z-10 absolute"></video>
             </div>
             <span ref={railref} className=" opacity-0 text-center text-white/50 mt-15">Honkai:Star rail</span>
 

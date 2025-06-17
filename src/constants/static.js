@@ -6,7 +6,7 @@ export const Slides = [
       "Powers unrivalled intelligence.",
       "And unprecedented performance."
     ],
-    video: "/Video/highlight-first.mp4",
+    video: "./Video/highlight-first.mp4",
     duration: 4
   },
   {
@@ -15,7 +15,7 @@ export const Slides = [
       "A camera that captures your imagination.",
       "Closer than ever, even from far away."
     ],
-    video: "/Video/hightlight-sec.mp4",
+    video: "./Video/hightlight-sec.mp4",
     duration: 2
   },
   {
@@ -24,7 +24,7 @@ export const Slides = [
       "Titanium.",
       "Max our most powerful iPhone ever."
     ],
-    video: "/Video/iphone-camera-highlight.mp4",
+    video: "./Video/iphone-camera-highlight.mp4",
     duration: 5
   },
   {
@@ -33,7 +33,7 @@ export const Slides = [
       "The button you can customize.",
       "Your shortcut to shortcuts."
     ],
-    video: "/Video/btninfo.mp4",
+    video: "./Video/btninfo.mp4",
     duration: 3
   }
 ];

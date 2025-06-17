@@ -101,13 +101,13 @@ useGSAP(() => {
             <div className="md:h-[40rem] h-[50rem] w-[90%] md:w-[80%] flex  gap-5 md:gap-0  flex-col items-center ">
                 {/* video */}
                 <div className=" w-full md:w-[80%] h-1/2 flex items-center justify-center ">
-                    <video className=" h-full w-full object-cover" src="./src/assets/rounded-edge-video.mp4" loop autoPlay playsInline muted></video>
+                    <video className=" h-full w-full object-cover" src="./Video/rounded-edge-video.mp4" loop autoPlay playsInline muted></video>
                 </div>
                 {/* images */}
                 <div className=" flex flex-col gap-5 items-center justify-center md:flex-row  overflow-hidden h-1/2 w-full md:w-[80%] ">
-                    <img ref={img1ref} src="./src/assets/explore1.jpg" className=" scale-105 md:scale-125 md:w-1/2 w-full h-1/2 md:h-full object-cover" alt="" />
+                    <img ref={img1ref} src="./img/explore1.jpg" className=" scale-105 md:scale-125 md:w-1/2 w-full h-1/2 md:h-full object-cover" alt="" />
                     
-                    <img ref={img2ref} src="./src/assets/explore2.jpg" className=" scale-105 md:scale-125 md:w-1/2 w-full h-1/2 md:h-full" alt="" />
+                    <img ref={img2ref} src="./img/explore2.jpg" className=" scale-105 md:scale-125 md:w-1/2 w-full h-1/2 md:h-full" alt="" />
                 </div>
             </div>
             </div>

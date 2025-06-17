@@ -1,8 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-import heroVideo from "./assets/hero.mp4"; // large video
-import smallHeroVideo from "./assets/smallHero.mp4"; // small video
+import heroVideo from "./Video/hero.mp4"; // large video
+import smallHeroVideo from "./Video/smallHero.mp4"; // small video
 function Hero() {
     const titleref = useRef(null);
     const vidref = useRef(null);
