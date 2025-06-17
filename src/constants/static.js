@@ -36,3 +36,15 @@ export const Slides=[
         duration:3
     }
 ]
+export const navarr = [
+  "Store",
+  "Mac",
+  "iPad",
+  "iPhone",
+  "Watch",
+  "AirPods",
+  "TV&Home",
+  "Entertainment",
+  "Accessories",
+  "Support"
+];

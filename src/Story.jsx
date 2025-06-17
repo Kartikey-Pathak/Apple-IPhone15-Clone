@@ -86,7 +86,7 @@ useGSAP(() => {
 
 
     return(
-        <div className=" w-full flex flex-col max-w-screen h-[120rem] md:h-[90rem] bg-[#1D1D1F]">
+        <div className=" w-full flex flex-col max-w-screen h-[120rem] md:h-[89rem] bg-[#1D1D1F]">
             {/* text part */}
             <div className=" m-5 mt-20 md:m-30 flex flex-col gap-20">
             <h1 ref={title1ref} className=" opacity-0 font-semibold text-white/40 text-3xl md:text-4xl lg:text-5xl">Strength Meets Sophistication.</h1>

@@ -1,7 +1,10 @@
+import { navarr } from "./constants/static";
+
 function Nav() {
     return (
-        <div className=" h-10 w-full max-w-screen flex items-center justify-between">
+        <div className=" h-10 w-full max-w-screen-xl mx-auto flex items-center justify-between md:justify-evenly">
             {/* logo */}
+            <div className=" h-fit w-fit">
             <svg className=" ml-5"
                 width="14"
                 height="18"
@@ -15,11 +18,20 @@ function Nav() {
                     fillOpacity="0.8"
                 />
             </svg>
+            </div>
+
+             <div className="hidden md:flex ml-5 items-center lg:gap-5 gap-2.5">
+                {
+                    navarr.map((item,idx)=>(
+                        <span className=" text-white/60 hover:text-white transition-all cursor-pointer" key={idx}>{item}</span>
+                    ))
+                }
+            </div>
+
             {/* others and texts for large devices */}
-            <div className=" flex justify-center items-center flex-row gap-10">
+            <div className=" flex justify-center items-center flex-row gap-10 lg:gap-8 md:gap-5">
                 <i className=" text-white/70 hover:text-white cursor-pointer transition-all fa-solid fa-magnifying-glass"></i>
                 <i className=" text-white/70 hover:text-white cursor-pointer transition-all fa-solid fa-bag-shopping mr-5"></i>
-
             </div>
 
         </div>
