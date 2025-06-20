@@ -34,7 +34,7 @@ Check it out here:
 
 - **Frontend:** React, Tailwind CSS
 - **Animations:** GSAP (`ScrollTrigger`, `fromTo`, `timeline`)
-- **3D Assets:** Blender (exported as image/video)
+- **3D Assets:** Blender (exported as .glb)
 - **Deployment:** Vercel
 
 ---
